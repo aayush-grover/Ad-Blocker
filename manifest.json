@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Add Blocker",
+    "version": "0.1.0",
+    "description": "This extension will remove adds from the sites",
+    "permissions":["webRequest","webRequestBlocking","<all_urls>"],
+    "background":{
+        "scripts": ["background.js"]
+    }
+}
